@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    johndoe:
+      id: 1
+      name: John Doe
+      password: $2b$12$HozN3nBzPbFvo8fqHAHdc.0tmFu0tXIqKMW/51WtUECTUcbfHvPZW # abc
+      type: Artist
+    bobwilliams:
+      id: 2
+      name: Bob Williams
+      password: $2b$12$2ZdWdojH/FWnHeAz695cxOiFzX2KZlur0HCjx/Mekra8nE9c8Mh.i # 123
+      type: Customer
+cookie:
+  expiry_days: 1
+  key: darsh # Must be string
+  name: darsh
+preauthorized:
+  emails:
+  - melsby@gmail.com
